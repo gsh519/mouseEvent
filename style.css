@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(https://d340eiag32bpum.cloudfront.net/img/post/spot/236/23503-gmkSSyCPpLYdH1cRG1a0_lrg.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+section h2 {
+  font-size: 5em;
+  color: #ffffff;
+  pointer-events: none;
+  text-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+section .glass {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+  background: transparent;
+  backdrop-filter: blur(10px);
+}
